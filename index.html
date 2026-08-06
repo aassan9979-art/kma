@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한국명상협회 안내</title>
+<style>
+  :root{ --accent:#2E5E4E; --accent2:#7FB29B; --bg:#eef2f0; --line:#d5ddd9; --text:#233; --muted:#5b6b64; }
+  *{ box-sizing:border-box; }
+  body{ font-family:"Malgun Gothic","맑은 고딕","Apple SD Gothic Neo","Noto Sans KR",sans-serif; background:var(--bg); color:var(--text); margin:0; line-height:1.6; }
+  .wrap{ max-width:640px; margin:0 auto; padding:16px; }
+  .card{ background:#fff; border:1px solid var(--line); border-radius:16px; box-shadow:0 3px 14px rgba(0,0,0,.06); overflow:hidden; margin-top:16px; }
+  header.top{ text-align:center; padding:34px 22px 30px; background:linear-gradient(135deg,var(--accent),#3a6b58); color:#fff; }
+  header.top h1{ margin:0; font-size:1.7rem; letter-spacing:-.3px; }
+  header.top p{ margin:8px 0 0; font-size:.95rem; opacity:.92; }
+  .body{ padding:22px 20px 24px; }
+  .lead{ text-align:center; color:var(--muted); font-size:.95rem; margin:0 0 20px; }
+  a.menu{ display:flex; align-items:center; gap:15px; text-decoration:none; color:inherit;
+    border:1px solid var(--line); border-radius:14px; padding:18px 18px; margin:12px 0; background:#fff; transition:.15s; }
+  a.menu:hover{ border-color:var(--accent2); box-shadow:0 4px 14px rgba(46,94,78,.12); transform:translateY(-1px); }
+  a.menu .ic{ width:52px; height:52px; flex:none; border-radius:14px; background:var(--accent); color:#fff;
+    display:flex; align-items:center; justify-content:center; font-size:26px; }
+  a.menu .ic.b2{ background:#3a6b58; }
+  a.menu .tx{ flex:1; }
+  a.menu .tx b{ display:block; font-size:1.12rem; }
+  a.menu .tx span{ font-size:.86rem; color:var(--muted); }
+  a.menu .go{ color:var(--accent2); font-size:1.4rem; flex:none; }
+  .note{ margin-top:20px; padding:13px 15px; background:#f6faf8; border:1px solid var(--line); border-radius:10px; font-size:.86rem; color:var(--muted); }
+  .foot{ text-align:center; color:var(--muted); font-size:.8rem; padding:18px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <header class="top">
+      <h1>한국명상협회</h1>
+      <p>온라인 안내</p>
+    </header>
+    <div class="body">
+      <p class="lead">아래에서 원하시는 항목을 선택해 주세요.</p>
+
+      <a class="menu" href="https://aassan9979-art.github.io/kma-join-form/">
+        <div class="ic">✍️</div>
+        <div class="tx"><b>회원가입 신청</b><span>협회 회원으로 가입 신청하기</span></div>
+        <div class="go">›</div>
+      </a>
+
+      <a class="menu" href="https://aassan9979-art.github.io/kma-stress-survey/">
+        <div class="ic b2">📋</div>
+        <div class="tx"><b>스트레스 평가 설문</b><span>지난 1개월 스트레스 척도(PSS) 자가진단</span></div>
+        <div class="go">›</div>
+      </a>
+
+      <div class="note">
+        · 모든 응답은 통계·회원관리 목적으로만 활용되며 비밀은 철저히 보장됩니다.<br>
+        · 문의: 한국명상협회
+      </div>
+    </div>
+  </div>
+  <div class="foot">© 한국명상협회</div>
+</div>
+</body>
+</html>
